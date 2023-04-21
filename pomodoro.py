@@ -6,6 +6,7 @@ class PomodoroTimer:
     def __init__(self, master):
         self.master = master
         self.master.title("Pomodoro Timer")
+        sekf.hours = 1
         self.minutes = 25
         self.seconds = 0
         self.timer_text = tk.StringVar()
